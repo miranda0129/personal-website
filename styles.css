@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+p, h1, li, a {
+   color: rgb(177, 193, 245);
+   text-decoration: none;
+}
+
+div {
+    padding: 2%;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.menu-text-btn {
+    cursor: pointer;
+    color: #0e0371;
+    text-decoration: none;
+
+    padding: 5%;
+}
+
+#menuBar {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+
+    background-color: rgba(128, 128, 128, 0.525);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#centerBlock {
+    border-style: solid;
+    border-color: #0e0371c3;
+    border-radius: 5%;
+    background-color: rgba(13, 1, 66, 0.542);
+    width: 75%;
+    min-height: 100%;
+
+    margin-left: 13%;
+
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+
+#gradient {
+    background-size: cover;
+    background-image: url(./images/site-background-v1.png);
+}
+
+#titleBlock {
+    font-size: larger;
+    text-align: center;
+}
+
+#mainText {
+    font-size: medium;
+}
+
+#profile-header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#avatar {
+    max-height: 50;
+    border-radius: 15%;
+}
